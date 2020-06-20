@@ -12,6 +12,7 @@ body {
     color: #001021;
 }
 header {
+    margin-top: 30px;
     color: #001021;
 }
 h1 {
@@ -24,7 +25,7 @@ h6 {
 }
 hr {
     width: 50%;
-    margin: 10px auto 10px auto;
+    margin: 30px auto 30px auto;
 }
 .image-container {
     display: flex;
@@ -39,7 +40,7 @@ hr {
 }
 .main-image:hover {
     scale: 105%;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 2px 2px 2px black;
     cursor: pointer;
 }
 footer, nav {
@@ -57,15 +58,15 @@ footer>p {
 }
 .para {
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .material-icons.md-60 { font-size: 60px; }
 .icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: rgb(134, 37, 37);
 }
 .icon-container>i {
