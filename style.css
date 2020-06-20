@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(paper.png);
+    background-color: rgb(213, 207, 223);
+    overflow-x: hidden;
+    color: #001021;
+}
+header {
+    color: #001021;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display SC', serif;
+}
+h6 {
+    font-size: 18px;
+    color: #00102191;
+}
+hr {
+    width: 50%;
+    margin: 10px auto 10px auto;
+}
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto 0 auto;
+}
+.main-image {
+    max-height: 300px;
+    margin: 10px;
+}
+.main-image:hover {
+    scale: 105%;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+footer, nav {
+    font-size: 20px;
+    width: 100vw;
+    height: 30px;
+    background-color: rgb(134, 37, 37);
+    color: rgb(213, 207, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>p {
+    margin-left: 30px;
+}
