@@ -5,7 +5,7 @@
 }
 body {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Neuton', 'Times New Roman', Times, serif;
     background-image: url(paper.png);
     background-color: rgb(213, 207, 223);
     overflow-x: hidden;
@@ -20,13 +20,13 @@ h1 {
 }
 h6 {
     font-size: 18px;
-    color: #00102191;
+    color: #001021;
 }
 hr {
     width: 50%;
     margin: 10px auto 10px auto;
 }
-#image-container {
+.image-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,4 +54,20 @@ footer, nav {
 }
 footer>p {
     margin-left: 30px;
+}
+.para {
+    font-size: 30px;
+    margin-top: 40px;
+}
+.material-icons.md-60 { font-size: 60px; }
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: rgb(134, 37, 37);
+}
+.icon-container>i {
+    margin: 0 30px 0 30px;
 }
